@@ -34,16 +34,16 @@ android {
         }
     }
 
-    // flavorDimensions "app"
-    // productFlavors {
-    //     dev {
-    //         dimension "app"
-    //         applicationIdSuffix ".dev"
-    //     }
-    //     prod {
-    //         dimension "app"
-    //     }
-    // }
+    flavorDimensions "app"
+    productFlavors {
+        dev {
+            dimension "app"
+            applicationIdSuffix ".dev"
+        }
+        prod {
+            dimension "app"
+        }
+    }
 
     packagingOptions {
         exclude 'META-INF/LICENSE'
