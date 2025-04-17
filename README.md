@@ -1,4 +1,4 @@
-# config_flutter
+# Flutter Boilerplate Kit
 
 A new Flutter project.
 
