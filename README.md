@@ -3,9 +3,9 @@
 Um kit inicial para projetos Flutter, projetado para acelerar o desenvolvimento de aplicativos móveis com uma arquitetura limpa, suporte à internacionalização (i18n) e integração de ferramentas essenciais.
 Ja vem preconfigurado 
 
-✅ Pronto para Android e iOS: configuração de plataforma já realizada
-🎨 Tema de ícone de app incluso
-🛠️ Ferramenta recomendada para gerar ícones: icon.kitchen
+- ✅ Pronto para Android e iOS: configuração de plataforma já realizada
+- 🎨 Tema de ícone de app incluso
+- 🛠️ Ferramenta recomendada para gerar ícones: icon.kitchen
 
 ## 🚀 Recursos
 🌍 **Internacionalização (i18n) com suporte a múltiplos idiomas**
