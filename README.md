@@ -75,6 +75,33 @@ Este projeto utiliza o sistema de internacionalização do Fluter.
 - Para adicionar um novo idioma, crie um novo arquivo `.arb` (por exemplo, `intl_en.arb`) e adicione as traduções correspondenes.
 
 
+## 📌 Futuras Atualizações
+
+- 🔄 **Gerenciamento de estado**:
+  - Exemplo com **GetX** ou **MobX** (dependendo da preferência do usuário/empresa)
+
+- 🌐 **Service Layer**:
+  - Cliente HTTP genérico
+  - Interceptor de erros
+  - Suporte a mocking para testes
+
+- 🎨 **Theme & UI**:
+  - Paleta de cores e tipografia customizadas
+  - Componentes reutilizáveis (botões, cards, campos de formulário, etc.)
+
+- 🧪 **Testes**:
+  - Testes unitários e de widget prontos para rodar
+
+- 🧹 **Lint/Format**:
+  - Arquivo `analysis_options.yaml` com regras de análise de código
+  - Script pré-configurado com `flutter format`
+
+- ⚙️ **CI/CD**:
+  - Suporte a **GitHub Actions** (ou outra solução) com workflows para:
+    - Rodar formatter e linter
+    - Executar testes
+    - Fazer build de debug/release
+
 ## 📄 Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
