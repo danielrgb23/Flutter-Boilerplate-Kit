@@ -1,4 +1,4 @@
-# Flutter Config App
+# Flutter Boilerplate Kit
 
 Adendo:
     Para atualizar os idiomas adicionados ao arquivos app_pt.arb se faz necessario recarregar a aplicação
