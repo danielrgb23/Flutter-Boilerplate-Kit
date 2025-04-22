@@ -1,6 +1,7 @@
-# config_flutter
+# Flutter Config App
 
-A new Flutter project.
+Adendo:
+    Para atualizar os idiomas adicionados ao arquivos app_pt.arb se faz necessario recarregar a aplicação
 
 ## Getting Started
 

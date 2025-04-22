@@ -1,0 +1,12 @@
+{
+    "@@locale": "pt",
+
+    "flutterConfigApp": "Flutter Config App",
+    "@flutterConfigApp": {
+        "type": "text"
+    },
+    "testeText": "Batatinha quando nasce se esparrama",
+    "@testeText": {
+        "type": "text"
+    }
+}

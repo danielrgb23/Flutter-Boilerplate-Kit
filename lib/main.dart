@@ -3,8 +3,10 @@ import 'package:bot_toast/bot_toast.dart';
 import 'package:config_flutter/pages/teste.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:config_flutter/inherited/messaging.dart';
+import 'package:config_flutter/l10n/app_localizations.dart';
 import 'package:config_flutter/utils/navigator_service.dart';
-class FlutterConfigApp extends StatelessWidget {
+import 'package:config_flutter/common/mixins/l10n_mixin.dart';
+class FlutterConfigApp extends StatelessWidget with L10n {
   const FlutterConfigApp({super.key});
 
   Widget _app() {
@@ -21,19 +23,22 @@ class FlutterConfigApp extends StatelessWidget {
             ),
           );
         };
-
+        L10n.init(context);
         final botFunc = BotToastInit();
 
         return botFunc(context, widget);
       },
       navigatorKey: NavigatorService.key,
+      supportedLocales: AppLocalizations.supportedLocales,
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
       navigatorObservers: [
         BotToastNavigatorObserver(),
       ],
       debugShowCheckedModeBanner: false,
       onGenerateTitle: (context) {
+        final l10n = AppLocalizations.of(context)!;
 
-        return "Flutter Config Basics";
+        return l10n.flutterConfigApp;
       },
 
       routes: {
