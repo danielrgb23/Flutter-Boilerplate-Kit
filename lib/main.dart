@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:config_flutter/pages/teste.dart';
+import 'package:config_flutter/pages/exemple.page.dart';
 import 'package:config_flutter/inherited/messaging.dart';
 import 'package:config_flutter/l10n/app_localizations.dart';
 import 'package:config_flutter/utils/navigator_service.dart';
