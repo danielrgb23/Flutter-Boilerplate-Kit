@@ -10,10 +10,6 @@ Ja vem preconfigurado
 ## 🚀 Recursos
 🌍 **Internacionalização (i18n) com suporte a múltiplos idiomas**
 
-⚙️ **GetX para gerenciamento de estado e navegação**
-
-🔔 **BotToast para notificações e feedback visual**
-
 🧱 **Arquitetura modular e escalável**
 
 🌗 **Tema personalizado com suporte a ícones**
@@ -78,7 +74,7 @@ Este projeto utiliza o sistema de internacionalização do Fluter.
 ## 📌 Futuras Atualizações
 
 - 🔄 **Gerenciamento de estado**:
-  - Exemplo com **GetX** ou **MobX** (dependendo da preferência do usuário/empresa)
+  - Exemplo com **Provider** ou **BloC** (dependendo da preferência do usuário/empresa)
 
 - 🌐 **Service Layer**:
   - Cliente HTTP genérico
