@@ -18,6 +18,8 @@ Ja vem preconfigurado
 
 🧪 **Suporte a testes unitários e de widget**
 
+🌐 **Camada de serviço HTTP abstrata com suporte a autenticação e headers personalizados**
+
 ## 📁 Estrutura do Projeto
 
 ```bash
@@ -25,19 +27,31 @@ lib/
 ├── common/
 │   └── mixins/
 │       └── l10n_mixin.dart
+├── exceptions/
+│   └── request.exceptions.dart
+├── data/
+│   ├── error.dart
+│   └── storage.dart
 ├── inherited/
 │   └── messaging.dart
 ├── l10n/
 │   ├── app_localizations.dart
+│   ├──app_localizations_pt.dart
 │   └── intl_pt.arb
 ├── pages/
-│   └── teste.dart
+│   └── exemple.page.dart
+├── repository/
+│   └── abstract.repository.dart
+├── services/
+│   ├── get_exemple.services.dart
+│   ├── preferer.service.dart
 ├── utils/
+│   ├── logger.dart
 │   └── navigator_service.dart
 └── main.dart
 ```
 
-## 🛠️ Configuração
+## 🛠️ Como começar
 
 1. Clone o repositóro:
 
@@ -70,6 +84,19 @@ Este projeto utiliza o sistema de internacionalização do Fluter.
 - Os arquivos `.arb` estão localizados em `lib/l10/`.
 - Para adicionar um novo idioma, crie um novo arquivo `.arb` (por exemplo, `intl_en.arb`) e adicione as traduções correspondenes.
 
+## 🌐 Requisições HTTP
+A classe AbstractRepository fornece métodos genéricos para realizar chamadas HTTP usando Dio. Isso inclui suporte a:
+
+- Headers personalizados
+- Tokens de autenticação via PrefererService
+- Interceptadores para controle de versão ou logging
+- Tratamento de erros centralizado
+
+Exemplo de uso no repositório GetExemple:
+
+ ```bash
+  final data = await GetExemple().getUsers();
+  ```
 
 ## 📌 Futuras Atualizações
 
@@ -77,8 +104,6 @@ Este projeto utiliza o sistema de internacionalização do Fluter.
   - Exemplo com **Provider** ou **BloC** (dependendo da preferência do usuário/empresa)
 
 - 🌐 **Service Layer**:
-  - Cliente HTTP genérico
-  - Interceptor de erros
   - Suporte a mocking para testes
 
 - 🎨 **Theme & UI**:
