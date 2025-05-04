@@ -130,3 +130,5 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 ## 🙌 Contribindo
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull reuests.
+
+- Para adicionar issues e seus PRs serem aceitos use o molde para a criação dos mesmo disponibilizados no arquivo `.github\ISSUE_TEMPLATE`
