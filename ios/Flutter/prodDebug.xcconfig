@@ -1,2 +1,6 @@
 #include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"
 #include "Generated.xcconfig"
+
+ASSET_PREFIX=prod
+BUNDLE_NAME=Configs Prod
+BUNDLE_DISPLAY_NAME=Configs Prod
